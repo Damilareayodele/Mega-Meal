@@ -1,0 +1,596 @@
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .logo {
+    max-width: 120px !important;
+  }
+  .focus-ring {
+    outline: none !important;
+    border: none !important;
+  }
+  /* //////////////////////////////////////////////////// */
+
+  #main {
+    margin-top: 7%;
+    background: #f4f3f3;
+    padding: 3rem 2rem;
+  }
+  #main img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 30px 5px;
+    border: 3px solid var(--general-color);
+  }
+  .lead {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+  }
+  .lead2 {
+    font-size: 1.2rem !important;
+  }
+  #main .cardd {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #main .cardd > div {
+    max-width: 500px;
+  }
+
+  #main .cardd > div button {
+    padding: 15px 25px !important;
+    font-size: 1.1rem !important;
+  }
+  #main .cardd > div .span {
+    margin-bottom: 10px;
+  }
+  #main .cardd > div .span div {
+    font-size: 1rem !important;
+    font-weight: bolder;
+  }
+  .cty {
+    font-size: 1rem;
+  }
+  #login {
+    margin: 10px 0 !important;
+    max-width: 50% !important;
+  }
+  #sign-up {
+    margin: 0 !important;
+    max-width: 50% !important;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+
+  /* Vision  */
+  .box {
+    transform: translateX(-200%);
+    transition: transform 0.5 ease;
+  }
+  .box:nth-of-type(even) {
+    transform: translateX(200%);
+  }
+  .box.show {
+    transform: translateX(0);
+  }
+
+  #vision .cards {
+    flex-direction: column;
+  }
+  #vision i {
+    font-size: 2rem;
+  }
+  #vision h3 {
+    margin-bottom: 20px !important;
+    color: var(--general-color);
+  }
+  #vision .cardd {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0 !important;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+  #team {
+    margin: 3% 0;
+    padding: 3rem 0;
+  }
+  #team .cards {
+    flex-direction: column !important;
+  }
+  #team .cardd {
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: var(--general-color);
+    margin: 10px;
+    border-radius: 50px;
+  }
+  #team img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+  /* saver  */
+
+  #best {
+    margin-top: 3rem;
+  }
+  .best {
+    flex-direction: column;
+  }
+  .best div {
+    max-width: 100%;
+    padding: 10x !important;
+  }
+  .best div h1 {
+    line-height: 1.5;
+    font-size: 2.2rem;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+  /* how to sign up  */
+  #sign-up-cont {
+    padding-top: 3rem;
+  }
+  #sign-up-cont div > h1 {
+    margin-bottom: 2rem;
+  }
+  .sin {
+    flex-direction: column;
+  }
+  .sin div {
+    margin: 10px;
+    line-height: 1.3;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+  /* Vault  */
+
+  #vault {
+    margin-top: 3rem;
+  }
+  .vault {
+    flex-direction: column;
+  }
+  .vault img {
+    width: 100%;
+    border-radius: 1px 20px !important;
+    border: solid 1px var(--general-color) !important;
+  }
+
+  .vault > div button {
+    padding: 15px 25px;
+    margin-bottom: 20px;
+  }
+  /* ////////////////////////////////////////////////////// */
+
+  #news {
+    margin-top: 3rem !important;
+    text-align: center;
+    padding: 20px 0;
+  }
+  #news h3 {
+    font-size: 1.5rem;
+  }
+  #news p {
+    font-size: 1rem;
+  }
+  #news .email {
+    width: 200px !important;
+    font-size: 1rem;
+  }
+  #news .email::placeholder {
+    font-size: 10px !important;
+  }
+  #news #submit {
+    width: 100px !important;
+    font-size: 1rem;
+  }
+
+  #about {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+
+  #mega-meal .lead {
+    margin-bottom: 1rem;
+  }
+  #mega-meal .mega {
+    gap: 20px;
+    flex-direction: column;
+  }
+  #mega-meal .mega img {
+    max-width: 100%;
+  }
+  #form {
+    max-width: 350px;
+  }
+  #form .ctx {
+    display: none;
+  }
+  #form h2 {
+    font-size: 1.2rem !important;
+  }
+  #form .logo {
+    max-width: 150px;
+  }
+  #remarks {
+    margin: 2rem 0;
+  }
+  #remarks h1 {
+    text-align: center;
+  }
+  .remarks {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .remarks .d2 {
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .remarks .d1 {
+    text-align: center;
+  }
+
+  /* ///////////////////////////////WORK//////////////////////////////// */
+
+  #work {
+    margin-top: 4rem;
+  }
+  .work .cardd {
+    flex-direction: column !important;
+  }
+  .work button {
+    padding: 15px 20px;
+
+    font-size: 1.1rem;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+  #footer {
+    padding: 2rem 0;
+    text-align: justify !important;
+  }
+  .foot img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .foot div {
+    margin: 10px 0;
+    text-align: justify !important;
+  }
+  .foot p {
+    font-size: 1.2rem;
+    text-align: justify !important;
+  }
+  #footer small {
+    position: absolute;
+    right: 20px;
+  }
+  #footer a {
+    text-decoration: none;
+    color: #999;
+  }
+  #footer .copy {
+    font-family: cursive;
+  }
+}
+
+/* ///////////////////            Min- width of 992px    ////////////////////////////////////////////// */
+
+@media (max-width: 1100px) {
+  .logo {
+    max-width: 200px;
+  }
+  #login {
+    margin: 10px 0 !important;
+    max-width: 50% !important;
+  }
+  #sign-up {
+    margin: 0 !important;
+    max-width: 50% !important;
+  }
+  .focus-ring {
+    outline: none !important;
+    border: none !important;
+  }
+  /* //////////////////////////////////////////////////// */
+
+  #main {
+    margin-top: 7%;
+    background: #f4f3f3;
+    padding: 3rem 2rem;
+  }
+  #main img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 30px 5px;
+    border: 3px solid var(--general-color);
+  }
+  .lead {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+  }
+  .lead2 {
+    font-size: 1.2rem !important;
+  }
+  #main .cardd {
+    display: flex !important;
+    flex-direction: column;
+  }
+  #main .cardd > div {
+    max-width: 500px;
+  }
+
+  #main .cardd > div button {
+    padding: 15px 25px;
+    font-size: 1.1rem;
+  }
+  #main .cardd > div .span {
+    margin-bottom: 10px;
+  }
+  #main .cardd > div .span div {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .cty {
+    font-size: 1rem;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+
+  /* Vision  */
+  .box {
+    transform: translateX(-200%);
+    transition: transform 0.5 ease;
+  }
+  .box:nth-of-type(even) {
+    transform: translateX(200%);
+  }
+  .box.show {
+    transform: translateX(0);
+  }
+
+  #vision .cards {
+    flex-direction: column;
+  }
+  #vision i {
+    font-size: 2rem;
+  }
+  #vision h3 {
+    margin-bottom: 20px;
+    color: var(--general-color);
+  }
+  #vision .cardd {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0 !important;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+
+  #team .cards {
+    flex-direction: column !important;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+  /* saver  */
+
+  #best {
+    margin-top: 3rem;
+  }
+  .best {
+    flex-direction: column;
+  }
+  .best div {
+    max-width: 100%;
+    padding: 10x !important;
+  }
+  .best div h1 {
+    line-height: 1.5;
+    font-size: 2.2rem;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+  /* how to sign up  */
+  #sign-up-cont {
+    padding-top: 3rem;
+  }
+  #sign-up-cont div > h1 {
+    margin-bottom: 2rem;
+  }
+  .sin {
+    flex-direction: column;
+  }
+  .sin div {
+    margin: 10px;
+    line-height: 1.3;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+  /* Vault  */
+
+  #vault {
+    margin-top: 3rem;
+  }
+  .vault {
+    flex-direction: column;
+  }
+  .vault img {
+    width: 100%;
+    border-radius: 1px 100px;
+    border: solid 1px var(--general-color);
+  }
+
+  .vault > div button {
+    padding: 15px 25px;
+    margin-bottom: 20px;
+  }
+  /* ////////////////////////////////////////////////////// */
+
+  #news {
+    margin-top: 3rem !important;
+    text-align: center;
+    padding: 20px 0;
+  }
+  #news h3 {
+    font-size: 1.5rem;
+  }
+  #news p {
+    font-size: 1rem;
+  }
+  #news .email {
+    width: 250px;
+    font-size: 1rem;
+  }
+  #news .email::placeholder {
+    font-size: 1rem;
+  }
+  #news #submit {
+    width: 100px;
+    font-size: 1rem;
+  }
+
+  /* ////////////////////////////////////////////////////// */
+
+  #mega-meal .lead {
+    margin-bottom: 1rem;
+  }
+  #mega-meal .mega {
+    gap: 20px;
+    flex-direction: column;
+  }
+  #mega-meal .mega img {
+    max-width: 100%;
+  }
+
+  /* ///////////////////////////////WORK//////////////////////////////// */
+
+  #work {
+    margin-top: 4rem;
+  }
+  .work .cardd {
+    flex-direction: column !important;
+  }
+  .work button {
+    padding: 15px 20px;
+
+    font-size: 1.1rem;
+  }
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1199px) {
+  #login {
+    margin: 10px 0 !important;
+    max-width: 50% !important;
+  }
+  #sign-up {
+    margin: 0 !important;
+    max-width: 50% !important;
+  }
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1400px) {
+  .logo {
+    max-width: 200px;
+  }
+  .lead {
+    font-size: 2rem !important;
+  }
+  .lead2 {
+    font-size: 1.4rem !important;
+  }
+  .nav-link {
+    margin: 0 5px !important;
+    font-size: 1.1rem !important;
+  }
+
+  #main {
+    padding: 4rem 2rem;
+  }
+  #main .cardd {
+    gap: 50px !important;
+  }
+  #main .cardd > div button,
+  .vault > div button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+  }
+  #main .cardd > div .span div {
+    font-size: 1.2rem;
+  }
+  .cty {
+    font-size: 1rem;
+  }
+
+  #vision i {
+    font-size: 1.5rem;
+  }
+  #vision h3 {
+    font-size: 1.3rem !important;
+  }
+  #vision .cardd {
+    max-width: 300px;
+    padding: 20px;
+  }
+  #team {
+    margin: 3rem 0 !important;
+    padding: 3rem 0;
+  }
+  .best div {
+    padding: 10px;
+  }
+  #sign-up-cont {
+    padding-top: 4rem !important;
+  }
+  .vault img {
+    max-width: 400px;
+    border-radius: 10px 40px;
+    border: solid 10px var(--general-color);
+  }
+  #news h3 {
+    font-size: 1.4rem;
+  }
+  #news p {
+    font-size: 1rem;
+  }
+  #mega-meal img {
+    max-width: 400px !important;
+    border-radius: 30px;
+  }
+  .mega h3 {
+    font-size: 1.5rem !important;
+  }
+  #mega-meal .mega {
+    gap: 30px;
+  }
+  /* ///////////////////////////////WORK//////////////////////////////// */
+
+  .work button {
+    padding: 15px 20px;
+    font-size: 1.1rem;
+  }
+
+  .remarks {
+    gap: 30px;
+  }
+  .remarks .d2 {
+    padding: 30px;
+  }
+  .remarks h3 {
+    font-size: 1.4rem;
+  }
+  .remarks form {
+    margin: 2rem 0 !important;
+  }
+}
